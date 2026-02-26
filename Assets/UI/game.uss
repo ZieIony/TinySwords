@@ -1,0 +1,32 @@
+:root {
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-image: url("project://database/Assets/Art/UI%20Elements/UI%20Elements/Buttons/SmallBlueSquareButton_Regular.png?fileID=-2818588917556840465&guid=d55b06b8357b7bd4181d54338ffbdd93&type=3#SmallBlueSquareButton_Regular_0");
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    text-shadow: 0 0 2px rgb(11, 42, 46);
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.button:active {
+    background-image: url("project://database/Assets/Art/UI%20Elements/UI%20Elements/Buttons/SmallBlueSquareButton_Pressed.png?fileID=-128128480842496838&guid=bb48d0b8130caf94896f02d31f62fbb4&type=3#SmallBlueSquareButton_Pressed_0");
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.label {
+    -unity-font-style: bold;
+    margin-top: 2px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+}

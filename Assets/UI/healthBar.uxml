@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="healthBarBackground" style="flex-grow: 1; position: absolute; width: 64px; height: 16px; background-image: url(&quot;project://database/Assets/Art/UI%20Elements/UI%20Elements/Bars/SmallBar9.png?fileID=490818741333710567&amp;guid=c4164f596484f7342b3494cf5af056bc&amp;type=3#SmallBar9_0&quot;);">
+        <ui:VisualElement name="healthBar" style="background-image: url(&quot;project://database/Assets/Art/UI%20Elements/UI%20Elements/Bars/SmallBar_Fill.png?fileID=-4072196366049256429&amp;guid=c77fcac21aec8ce45aac66656d0d4c78&amp;type=3#SmallBar_Fill_0&quot;); transform-origin: left; scale: 1 1; height: 6px; left: 5px; width: 54px; top: 5px;"/>
+    </ui:VisualElement>
+</ui:UXML>

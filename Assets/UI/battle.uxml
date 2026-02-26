@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/game.uss?fileID=7433441132597879392&amp;guid=35048649eefa05e4bb9ec61e4e39309b&amp;type=3#game"/>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="bannerBlue" style="background-image: url(&quot;project://database/Assets/Art/UI%20Elements/UI%20Elements/Papers/RegularPaperBack.png?fileID=-1740697770426238959&amp;guid=fe5f96556c4d0a94a9d7839302c5712b&amp;type=3#RegularPaperBack_0&quot;); margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px; padding-top: 0; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; position: absolute; top: 0; left: 0;">
+            <ui:Image source="project://database/Assets/Art/UI%20Elements/UI%20Elements/Human%20Avatars/Avatars_01.png?fileID=6856901680134642022&amp;guid=fa2fd585e5c37f14e8d64d17af8c0184&amp;type=3#Avatars_01_0" name="avatarBlue" style="align-self: center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            <ui:Label text="warrior" name="classBlue" class="label" style="-unity-text-align: upper-center; white-space: nowrap; font-size: 24px;"/>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="hp:" name="" class="label"/>
+                <ui:Label text="80" name="hpBlue" class="label"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="" style="flex-grow: 1; justify-content: space-between; flex-direction: row;">
+                <ui:Label text="speed:" name="" class="label"/>
+                <ui:Label text="3" name="speedBlue" class="label"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="damage:" name="" class="label"/>
+                <ui:Label text="10" name="damageBlue" class="label"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="range:" name="" class="label"/>
+                <ui:Label text="1" name="rangeBlue" class="label"/>
+            </ui:VisualElement>
+            <ui:Button text="Skip" name="skipBlue" class="button" style="width: 150px; height: 50px; -unity-text-align: middle-center; background-color: rgba(188, 188, 188, 0); margin-top: 20px; margin-right: 0; margin-bottom: 0; margin-left: 0; align-self: center;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; position: absolute; left: 0; right: 0; top: auto; bottom: auto; justify-content: center;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; width: auto; position: absolute; justify-content: center; background-image: url(&quot;project://database/Assets/Art/UI%20Elements/UI%20Elements/Ribbons/BigRibbonBlack.png?fileID=-2445859154380935435&amp;guid=38d86c3693b97294cb3d31909921ac60&amp;type=3#BigRibbonBlack_0&quot;); padding-top: 15px; padding-right: 100px; padding-bottom: 25px; padding-left: 100px; margin-top: 20px;">
+                <ui:Label text="Round" style="color: rgb(255, 255, 255); font-size: 36px; -unity-font-style: bold; margin-right: 12px; margin-top: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+                <ui:Label text="Label" name="round" style="font-size: 36px; -unity-font-style: bold; color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bannerRed" style="background-image: url(&quot;project://database/Assets/Art/UI%20Elements/UI%20Elements/Papers/RegularPaperBack.png?fileID=-1740697770426238959&amp;guid=fe5f96556c4d0a94a9d7839302c5712b&amp;type=3#RegularPaperBack_0&quot;); margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; padding-top: 0; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; position: absolute; right: 0;">
+            <ui:Image source="project://database/Assets/Art/UI%20Elements/UI%20Elements/Human%20Avatars/Avatars_06.png?fileID=-4216416322996058909&amp;guid=ba9ba690ca64ff14c9eec51070deb346&amp;type=3#Avatars_06_0" name="avatarRed" style="align-self: center; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; scale: -1 1;"/>
+            <ui:Label text="warrior" name="classRed" class="label" style="font-size: 24px; -unity-text-align: upper-center;"/>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="hp:" name="" class="label"/>
+                <ui:Label text="80" name="hpRed" class="label"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="speed:" name="" class="label"/>
+                <ui:Label text="3" name="speedRed" class="label" style="height: 33px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="damage:" name="" class="label"/>
+                <ui:Label text="10" name="damageRed" class="label"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-between;">
+                <ui:Label text="range:" name="" class="label"/>
+                <ui:Label text="1" name="rangeRed" class="label"/>
+            </ui:VisualElement>
+            <ui:Button text="Skip" name="skipRed" class="button" style="width: 150px; height: 50px; -unity-text-align: middle-center; margin-top: 20px; margin-right: 0; margin-bottom: 0; margin-left: 0; align-self: center;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
